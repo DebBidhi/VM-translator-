@@ -1,6 +1,6 @@
 # VM Translator
 
-This project implements a VM translator for the Hack computer platform, as part of the Nand2Tetris course.
+This project implements a VM translator for the Hack computer platform, as part of the Nand2Tetris.
 
 ## Overview
 
@@ -49,7 +49,7 @@ The project includes various test files (.tst) and comparison files (.cmp) for v
 
 ## Notes
 
-- The translator implements the VM specification as described in the Nand2Tetris course.
+- The translator implements the VM specification as described in the Nand2Tetris.
 - Special attention is given to handling function calls, returns, and maintaining the stack frame.
 - This project is part of a broader exploration into computer architecture and systems, providing hands-on experience with low-level computing concepts.
 
