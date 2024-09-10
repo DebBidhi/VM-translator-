@@ -5,10 +5,9 @@ This project implements a VM translator for the Hack computer platform, as part 
 ## Overview
 
 The VM translator converts VM code (similar to Java bytecode) into Hack assembly language. It handles various VM commands including arithmetic operations, memory access, program flow, and function calls.
-```
 
-This project is part of a longer study I undertook in 2022 to learn about how computers actually work at a deep level. It's based on materials that show how to build a 16-bit computer from scratch, starting from logic gates and progressing through to a compiler and a very simple, basic operating system. The goal is to gain a comprehensive understanding of how computer systems function at their most fundamental level.
-```
+**This project is part of a longer study I undertook in 2022 to learn about how computers actually work at a deep level.** It's based on 
+materials that show how to build a 16-bit computer from scratch, starting from logic gates and progressing through to a compiler and a very simple, basic operating system. **The goal is to gain a comprehensive understanding of how computer systems function at their most fundamental level.**
 
 ## Architecture
 
@@ -40,10 +39,6 @@ This image illustrates the complete process of converting high-level programming
 4. Assembler converts assembly to binary machine code
 
 Our VM translator bridges the gap between the abstract VM code and the more concrete assembly language, playing a vital role in the overall compilation and execution process.
-
-![Hack Assembly Instructions](hack-asm-instructions.jpeg)
-
-This image illustrates the binary representation of a C-instruction in the Hack assembly language. This binary representation is handled by Hack computer, which is designed as part of the overall Nand2Tetris process. The final output can be directly executed by the Hack computer.
 
 ## Key Components
 
