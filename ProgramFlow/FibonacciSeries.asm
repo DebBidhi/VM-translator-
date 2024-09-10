@@ -11,7 +11,6 @@ A=M
 M=D 
 @SP 
 M=M+1 
-
 //pop pointer 1
 @SP 
 M=M-1 

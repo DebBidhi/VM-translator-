@@ -119,4 +119,5 @@ class PushPopHandler:
         else:
             print("pop pointer takes 0 or 1")
             raise ValueError("Invalid pop command. Please check again")
+        
 

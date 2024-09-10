@@ -44,4 +44,5 @@ class FunctionHandler:
         return_code += f"@{function_name}\n0;JMP\n"
         return_code += f"({function_name}$ret.{self.current_label_counter})\n"
         return return_code
+    
 

@@ -14,6 +14,7 @@ class ArithmeticHandler:
             "lt": self.generate_operation("LESS_THAN"),
             "gt": self.generate_operation("GREATER_THAN")
         }
+        
     def handle_command(self):
         out = self.operation[self.command]
         return out

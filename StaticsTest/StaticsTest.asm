@@ -52,7 +52,6 @@ M=D
 @Sys.init
 0;JMP
 (Sys.init$ret.1)
-
 //function Class1.set 0
 (Class1.set)
 
